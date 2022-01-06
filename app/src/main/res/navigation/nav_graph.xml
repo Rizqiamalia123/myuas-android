@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_profil">
+
+    <fragment
+        android:name="com.rizqiamalia.myapplication.ProfilFragment"
+        android:id="@+id/nav_profil"
+        android:label="Profil User"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:name="com.rizqiamalia.myapplication.BajuFragment"
+        android:id="@+id/nav_baju"
+        android:label="Daftar Baju"
+        tools:layout="@layout/fragment_produk" />
+
+    <fragment
+        android:name="com.rizqiamalia.myapplication.CelanaFragment"
+        android:id="@+id/nav_celana"
+        android:label="Daftar Celana"
+        tools:layout="@layout/fragment_produk" />
+
+    <fragment
+        android:name="com.rizqiamalia.myapplication.PenggunaanFragment"
+        android:id="@+id/nav_penggunaan"
+        android:label="Cara Penggunaan"
+        tools:layout="@layout/fragment_penggunaan" />
+
+</navigation>

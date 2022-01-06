@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:title="Profil" />
+    </group>
+    <item android:title="Produk">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_baju"
+                    android:title="Baju" />
+                <item
+                    android:id="@+id/nav_celana"
+                    android:title="Celana" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Lainnya">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_penggunaan"
+                    android:title="Penggunaan" />
+            </group>
+        </menu>
+    </item>
+</menu>
